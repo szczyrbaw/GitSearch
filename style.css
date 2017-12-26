@@ -1,0 +1,39 @@
+body {
+    background-color: darkgray;
+    
+}
+#root {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+#root div {
+    float:left;  
+}
+
+#root form label, #root form input{
+    font-size: 20px;
+    padding: 5px
+}
+#root #users div {
+    width: 25%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#root #users img {
+    margin: 0 auto;
+}
+#root #users a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+#root #users a:hover{
+    background-color: lightcoral;
+}
